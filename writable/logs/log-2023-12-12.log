@@ -1,0 +1,629 @@
+CRITICAL - 2023-12-12 00:54:49 --> Undefined array key "kodesekolah"
+in APPPATH\Views\admin\part_header.php on line 29.
+ 1 APPPATH\Views\admin\part_header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodesekolah"', 'APPPATH\\Views\\admin\\part_header.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/part_header', [], true)
+ 5 APPPATH\Views\admin\laporan.php(22): view('admin/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 9 APPPATH\Controllers\Admin_laporan.php(32): view('admin/laporan', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->tampil()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 00:54:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 00:54:51 --> Undefined array key "kodesekolah"
+in APPPATH\Views\admin\part_header.php on line 29.
+ 1 APPPATH\Views\admin\part_header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodesekolah"', 'APPPATH\\Views\\admin\\part_header.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/part_header', [], true)
+ 5 APPPATH\Views\admin\laporan.php(22): view('admin/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 9 APPPATH\Controllers\Admin_laporan.php(32): view('admin/laporan', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->tampil()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 00:54:51 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 00:55:09 --> Undefined array key "kodesekolah"
+in APPPATH\Views\admin\part_header.php on line 29.
+ 1 APPPATH\Views\admin\part_header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodesekolah"', 'APPPATH\\Views\\admin\\part_header.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/part_header', [], true)
+ 5 APPPATH\Views\admin\laporan.php(22): view('admin/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 9 APPPATH\Controllers\Admin_laporan.php(32): view('admin/laporan', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->tampil()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 00:55:09 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 00:56:43 --> Undefined array key "kodesekolah"
+in APPPATH\Views\admin\part_header.php on line 33.
+ 1 APPPATH\Views\admin\part_header.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodesekolah"', 'APPPATH\\Views\\admin\\part_header.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/part_header', [], true)
+ 5 APPPATH\Views\admin\laporan.php(22): view('admin/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 9 APPPATH\Controllers\Admin_laporan.php(32): view('admin/laporan', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->tampil()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 00:56:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:35:17 --> Invalid file: admin/laporandetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporandetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 3 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:35:17 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:28 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:48 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:48 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:49 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:49 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:49 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 02:53:58 --> Call to undefined function dete()
+in APPPATH\Views\admin\laporandetail.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 02:53:58 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-12-12 06:11:43 --> mysqli_sql_exception: Unknown column 'kodereakap' in 'where clause' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from k...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from k...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from k...')
+#3 C:\xampp\htdocs\paudnipkl\app\Views\admin\laporandetail.php(186): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#4 C:\xampp\htdocs\paudnipkl\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\paudnipkl\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\paudnipkl\system\Common.php(1134): CodeIgniter\View\View->render('admin/laporande...', Array, true)
+#7 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(46): view('admin/laporande...', Array)
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#9 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#10 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-12-12 06:11:43 --> Call to a member function getRowArray() on bool
+in APPPATH\Views\admin\laporandetail.php on line 186.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 06:11:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 06:14:37 --> Undefined array key "awak_l"
+in APPPATH\Views\admin\laporandetail.php on line 200.
+ 1 APPPATH\Views\admin\laporandetail.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "awak_l"', 'APPPATH\\Views\\admin\\laporandetail.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporandetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 5 APPPATH\Controllers\Admin_laporan.php(46): view('admin/laporandetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 06:14:37 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 06:58:10 --> Undefined array key "koderekap"
+in APPPATH\Views\admin\laporan.php on line 98.
+ 1 APPPATH\Views\admin\laporan.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "koderekap"', 'APPPATH\\Views\\admin\\laporan.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 5 APPPATH\Controllers\Admin_laporan.php(20): view('admin/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 06:58:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 07:43:52 --> Array to string conversion
+in APPPATH\Views\admin\laporandetail.php on line 280.
+ 1 APPPATH\Views\admin\laporandetail.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\laporandetail.php', 280)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporandetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporandetail', [], true)
+ 5 APPPATH\Controllers\Admin_laporan.php(47): view('admin/laporandetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 07:43:52 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 08:00:43 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Admin_laporan.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin_laporan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_laporan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_laporan')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin_laporan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 08:00:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 08:00:46 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Admin_laporan.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin_laporan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_laporan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_laporan')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin_laporan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 08:00:46 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-12 08:02:55 --> Undefined variable $get
+in APPPATH\Controllers\Admin_laporan.php on line 57.
+ 1 APPPATH\Controllers\Admin_laporan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'APPPATH\\Controllers\\Admin_laporan.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->terima('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-12 08:02:55 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-12-12 08:08:26 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:09:31 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:10:02 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:10:14 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:10:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:10:50 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:10:53 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:11:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:11:24 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:11:31 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:11:54 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(39): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:12:09 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-12 08:12:41 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(38): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->detail(Array)
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}

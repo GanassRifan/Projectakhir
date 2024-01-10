@@ -1,0 +1,148 @@
+CRITICAL - 2023-12-17 08:06:13 --> Undefined variable $bulan
+in APPPATH\Views\kepsek\laporan.php on line 14.
+ 1 APPPATH\Views\kepsek\laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\kepsek\\laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(84): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-17 08:06:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 08:09:38 --> Undefined variable $bulan
+in APPPATH\Views\kepsek\laporan.php on line 14.
+ 1 APPPATH\Views\kepsek\laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\kepsek\\laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(84): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-17 08:09:38 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 08:10:28 --> Undefined variable $bulan
+in APPPATH\Views\kepsek\laporan.php on line 14.
+ 1 APPPATH\Views\kepsek\laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\kepsek\\laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(84): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-17 08:10:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 08:16:13 --> Undefined variable $x
+in APPPATH\Controllers\Kepsek_laporan.php on line 88.
+ 1 APPPATH\Controllers\Kepsek_laporan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $x', 'APPPATH\\Controllers\\Kepsek_laporan.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->tolak()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-17 08:16:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-12-17 17:24:14 --> mysqli_sql_exception: Column 'kodepengguna' cannot be null in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Korwilcam_laporan.php(83): App\Models\Databasemodel->inserting('verifikasi', Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->tolak()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-17 17:32:52 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(74): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->tolak()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-17 17:36:04 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(74): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->tolak()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-17 17:38:41 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rekap` ...', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rekap` ...')
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rekap` ...')
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `rekap` ...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_laporan.php(88): App\Models\Databasemodel->updating('rekap', Array, Array)
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_laporan->terima('1')
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}

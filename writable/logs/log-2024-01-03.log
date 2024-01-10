@@ -1,0 +1,797 @@
+CRITICAL - 2024-01-03 07:50:55 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\admin\laporan.php on line 160.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 4 APPPATH\Controllers\Admin_laporan.php(45): view('admin/laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->tampil()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 07:50:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:02:29 --> Class "App\Libraries\Fpdf\Exception" not found
+in APPPATH\Libraries\Fpdf\fpdf.php on line 272.
+ 1 APPPATH\Libraries\Fpdf\fpdf.php(626): App\Libraries\Fpdf\FPDF->Error('No font has been set')
+ 2 APPPATH\Controllers\Admin_laporan.php(120): App\Libraries\Fpdf\FPDF->Cell(280, 6, 'LAPORAN REKAPITULASI DATA', 1, 1, 'C')
+ 3 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:02:29 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:03:11 --> Class "App\Libraries\Fpdf\Exception" not found
+in APPPATH\Libraries\Fpdf\fpdf.php on line 272.
+ 1 APPPATH\Libraries\Fpdf\fpdf.php(626): App\Libraries\Fpdf\FPDF->Error('No font has been set')
+ 2 APPPATH\Controllers\Admin_laporan.php(120): App\Libraries\Fpdf\FPDF->Cell(280, 6, 'LAPORAN REKAPITULASI DATA', 1, 1, 'C')
+ 3 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:03:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:03:35 --> Class "App\Libraries\Fpdf\Exception" not found
+in APPPATH\Libraries\Fpdf\fpdf.php on line 272.
+ 1 APPPATH\Libraries\Fpdf\fpdf.php(626): App\Libraries\Fpdf\FPDF->Error('No font has been set')
+ 2 APPPATH\Controllers\Admin_laporan.php(120): App\Libraries\Fpdf\FPDF->Cell(277, 6, 'LAPORAN REKAPITULASI DATA', 1, 1, 'C')
+ 3 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:03:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:03:49 --> Class "App\Libraries\Fpdf\Exception" not found
+in APPPATH\Libraries\Fpdf\fpdf.php on line 272.
+ 1 APPPATH\Libraries\Fpdf\fpdf.php(626): App\Libraries\Fpdf\FPDF->Error('No font has been set')
+ 2 APPPATH\Controllers\Admin_laporan.php(120): App\Libraries\Fpdf\FPDF->Cell(277, 6, 'JIDDAH BATIK', 0, 1, 'C')
+ 3 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:03:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:04:13 --> Class "App\Libraries\Fpdf\Exception" not found
+in APPPATH\Libraries\Fpdf\fpdf.php on line 272.
+ 1 APPPATH\Libraries\Fpdf\fpdf.php(626): App\Libraries\Fpdf\FPDF->Error('No font has been set')
+ 2 APPPATH\Controllers\Admin_laporan.php(120): App\Libraries\Fpdf\FPDF->Cell(277, 6, 'JIDDAH BATIK', 0, 1, 'C')
+ 3 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:04:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:06:47 --> Undefined variable $tahun
+in APPPATH\Controllers\Admin_laporan.php on line 124.
+ 1 APPPATH\Controllers\Admin_laporan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Admin_laporan.php', 124)
+ 2 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:06:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:11:37 --> Attempt to read property "nama" on array
+in APPPATH\Controllers\Admin_laporan.php on line 138.
+ 1 APPPATH\Controllers\Admin_laporan.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on array', 'APPPATH\\Controllers\\Admin_laporan.php', 138)
+ 2 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:11:37 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:14:35 --> Undefined variable $waktu
+in APPPATH\Controllers\Admin_laporan.php on line 163.
+ 1 APPPATH\Controllers\Admin_laporan.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $waktu', 'APPPATH\\Controllers\\Admin_laporan.php', 163)
+ 2 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:14:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:18:18 --> Undefined variable $tanggal
+in APPPATH\Controllers\Admin_laporan.php on line 171.
+ 1 APPPATH\Controllers\Admin_laporan.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Controllers\\Admin_laporan.php', 171)
+ 2 APPPATH\Controllers\Admin_laporan.php(109): App\Controllers\Admin_laporan->cetakpdf('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:18:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:24:10 --> Call to undefined method App\Controllers\Admin_laporan::cetakexcel()
+in APPPATH\Controllers\Admin_laporan.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:24:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:27:48 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:27:48 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:28:01 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 195.
+ 1 APPPATH\Controllers\Admin_laporan.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 195)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:28:01 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:28:24 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:28:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:28:35 --> Undefined variable $writer
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:28:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:28:45 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:28:45 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:28:54 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:28:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:29:19 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:29:19 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:29:27 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 193.
+ 1 APPPATH\Controllers\Admin_laporan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 193)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:29:27 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:30:20 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 201.
+ 1 APPPATH\Controllers\Admin_laporan.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 201)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:30:20 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:30:24 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 196.
+ 1 APPPATH\Controllers\Admin_laporan.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 196)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:30:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:30:28 --> Undefined variable $filename
+in APPPATH\Controllers\Admin_laporan.php on line 197.
+ 1 APPPATH\Controllers\Admin_laporan.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'APPPATH\\Controllers\\Admin_laporan.php', 197)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:30:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:30:40 --> Undefined variable $bulan
+in APPPATH\Controllers\Admin_laporan.php on line 194.
+ 1 APPPATH\Controllers\Admin_laporan.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Admin_laporan.php', 194)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:30:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:30:44 --> Undefined variable $writer
+in APPPATH\Controllers\Admin_laporan.php on line 194.
+ 1 APPPATH\Controllers\Admin_laporan.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'APPPATH\\Controllers\\Admin_laporan.php', 194)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Tirto', '12', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:30:44 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:34:24 --> Undefined variable $sekolah
+in APPPATH\Controllers\Admin_laporan.php on line 207.
+ 1 APPPATH\Controllers\Admin_laporan.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'APPPATH\\Controllers\\Admin_laporan.php', 207)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Bojong', '1', '2024')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:34:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:34:44 --> Undefined variable $sekolah
+in APPPATH\Controllers\Admin_laporan.php on line 205.
+ 1 APPPATH\Controllers\Admin_laporan.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'APPPATH\\Controllers\\Admin_laporan.php', 205)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Bojong', '1', '2024')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:34:44 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:34:49 --> Undefined variable $sekolah
+in APPPATH\Controllers\Admin_laporan.php on line 205.
+ 1 APPPATH\Controllers\Admin_laporan.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'APPPATH\\Controllers\\Admin_laporan.php', 205)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Bojong', '1', '2024')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:34:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:35:07 --> Undefined variable $sekolah
+in APPPATH\Controllers\Admin_laporan.php on line 210.
+ 1 APPPATH\Controllers\Admin_laporan.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'APPPATH\\Controllers\\Admin_laporan.php', 210)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Bojong', '1', '2024')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:35:07 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 08:35:35 --> Undefined variable $sekolah
+in APPPATH\Controllers\Admin_laporan.php on line 210.
+ 1 APPPATH\Controllers\Admin_laporan.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'APPPATH\\Controllers\\Admin_laporan.php', 210)
+ 2 APPPATH\Controllers\Admin_laporan.php(111): App\Controllers\Admin_laporan->cetakexcel('Bojong', '1', '2024')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_laporan->cetak()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 08:35:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 18:44:31 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\operator\laporan.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-01-03 06:22:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'paudnipkl', 3306, '', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#6 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#9 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-03 06:22:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `username` = :username:', [...], false)
+ 3 APPPATH\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', [...])
+ 5 APPPATH\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 06:22:55 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-01-03 06:23:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'paudnipkl', 3306, '', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#6 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#9 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-03 06:23:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `username` = :username:', [...], false)
+ 3 APPPATH\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', [...])
+ 5 APPPATH\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('xnvx')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 06:23:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-01-03 06:23:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'paudnipkl', 3306, '', 0)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#6 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('')
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#9 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\paudnipkl\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paudnipkl\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paudnipkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paudnipkl\app\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', Array)
+#5 C:\xampp\htdocs\paudnipkl\app\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('')
+#6 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+#7 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+#8 C:\xampp\htdocs\paudnipkl\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\paudnipkl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\paudnipkl\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-03 06:23:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `username` = :username:', [...], false)
+ 3 APPPATH\Models\Databasemodel.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_korwilcam.php(33): App\Models\Databasemodel->getSome('pengguna', [...])
+ 5 APPPATH\Controllers\Admin_korwilcam.php(49): App\Controllers\Admin_korwilcam->buatusername('ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_korwilcam->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_korwilcam))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-03 06:23:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

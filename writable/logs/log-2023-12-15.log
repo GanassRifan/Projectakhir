@@ -1,0 +1,1835 @@
+CRITICAL - 2023-12-15 00:16:59 --> Invalid file: korwilcam/profil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('korwilcam/profil.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/profil', [], true)
+ 3 APPPATH\Controllers\Korwilcam_root.php(27): view('korwilcam/profil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->tampilpengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:16:59 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:17:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\korwilcam\profil.php on line 35.
+ 1 APPPATH\Views\korwilcam\profil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\korwilcam\\profil.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/profil', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(27): view('korwilcam/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->tampilpengguna()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:17:21 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:18:31 --> Invalid file: korwilcam/akses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('korwilcam/akses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/akses', [], true)
+ 3 APPPATH\Controllers\Korwilcam_root.php(43): view('korwilcam/akses')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->tampilakses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:18:31 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:23:10 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\korwilcam\landing.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 4 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:23:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:24:04 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\korwilcam\landing.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 4 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:24:04 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:45:40 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+in APPPATH\Views\korwilcam\landing.php on line 168.
+ 1 APPPATH\Views\korwilcam\landing.php(168): strtotime([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:45:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:45:47 --> Undefined variable $l
+in APPPATH\Views\korwilcam\landing.php on line 160.
+ 1 APPPATH\Views\korwilcam\landing.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l', 'APPPATH\\Views\\korwilcam\\landing.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:45:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:45:56 --> Undefined variable $l
+in APPPATH\Views\korwilcam\landing.php on line 154.
+ 1 APPPATH\Views\korwilcam\landing.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l', 'APPPATH\\Views\\korwilcam\\landing.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:45:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:46:07 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+in APPPATH\Views\korwilcam\landing.php on line 168.
+ 1 APPPATH\Views\korwilcam\landing.php(168): strtotime([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:46:07 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:46:08 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+in APPPATH\Views\korwilcam\landing.php on line 168.
+ 1 APPPATH\Views\korwilcam\landing.php(168): strtotime([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:46:08 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:46:08 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+in APPPATH\Views\korwilcam\landing.php on line 168.
+ 1 APPPATH\Views\korwilcam\landing.php(168): strtotime([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:46:08 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 00:46:08 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+in APPPATH\Views\korwilcam\landing.php on line 168.
+ 1 APPPATH\Views\korwilcam\landing.php(168): strtotime([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/landing', [], true)
+ 5 APPPATH\Controllers\Korwilcam_root.php(15): view('korwilcam/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 00:46:08 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:54:58 --> Undefined variable $db
+in APPPATH\Controllers\Korwilcam_laporan.php on line 19.
+ 1 APPPATH\Controllers\Korwilcam_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Korwilcam_laporan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:54:58 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:55:03 --> Undefined variable $db
+in APPPATH\Controllers\Korwilcam_laporan.php on line 19.
+ 1 APPPATH\Controllers\Korwilcam_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Korwilcam_laporan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:55:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:55:04 --> Undefined variable $db
+in APPPATH\Controllers\Korwilcam_laporan.php on line 19.
+ 1 APPPATH\Controllers\Korwilcam_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Korwilcam_laporan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:55:04 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:55:08 --> Undefined variable $db
+in APPPATH\Controllers\Korwilcam_laporan.php on line 19.
+ 1 APPPATH\Controllers\Korwilcam_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Korwilcam_laporan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:55:08 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:55:39 --> Undefined variable $db
+in APPPATH\Controllers\Korwilcam_laporan.php on line 19.
+ 1 APPPATH\Controllers\Korwilcam_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Korwilcam_laporan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:55:39 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:55:57 --> Invalid file: korwilcam/laporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('korwilcam/laporan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/laporan', [], true)
+ 3 APPPATH\Controllers\Korwilcam_laporan.php(24): view('korwilcam/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:55:57 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 13:56:04 --> Invalid file: korwilcam/laporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('korwilcam/laporan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/laporan', [], true)
+ 3 APPPATH\Controllers\Korwilcam_laporan.php(24): view('korwilcam/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_laporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 13:56:04 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 02:55:47 --> Invalid file: admin/aspekpilihanbaru.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/aspekpilihanbaru.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekpilihanbaru', [], true)
+ 3 APPPATH\Controllers\Admin_aspek.php(36): view('admin/aspekpilihanbaru', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 02:55:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 02:56:26 --> Undefined variable $data
+in APPPATH\Views\admin\aspekpilihanbaru.php on line 22.
+ 1 APPPATH\Views\admin\aspekpilihanbaru.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\admin\\aspekpilihanbaru.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekpilihanbaru.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekpilihanbaru', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(36): view('admin/aspekpilihanbaru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 02:56:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 02:56:48 --> Undefined variable $data
+in APPPATH\Views\admin\aspekpilihanbaru.php on line 36.
+ 1 APPPATH\Views\admin\aspekpilihanbaru.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\admin\\aspekpilihanbaru.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekpilihanbaru.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekpilihanbaru', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(36): view('admin/aspekpilihanbaru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 02:56:48 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 02:58:53 --> Undefined variable $data
+in APPPATH\Views\admin\aspekpilihanbaru.php on line 70.
+ 1 APPPATH\Views\admin\aspekpilihanbaru.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\admin\\aspekpilihanbaru.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekpilihanbaru.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekpilihanbaru', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(36): view('admin/aspekpilihanbaru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 02:58:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:02:45 --> Undefined variable $get
+in APPPATH\Controllers\Admin_aspek.php on line 58.
+ 1 APPPATH\Controllers\Admin_aspek.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'APPPATH\\Controllers\\Admin_aspek.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->hapusdetail('a:3:{s:5:"aspek";s:9:"Prasarana";s:8:"subaspek";s:18:"Kepemilikan Gedung";s:5:"jenis";s:7:"pilihan";}', 'a:1:{i:0;s:14:"conaskjasdbask";}', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:02:45 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:03:37 --> Undefined variable $get
+in APPPATH\Controllers\Admin_aspek.php on line 58.
+ 1 APPPATH\Controllers\Admin_aspek.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'APPPATH\\Controllers\\Admin_aspek.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->hapusdetail('a:3:{s:5:"aspek";s:9:"Prasarana";s:8:"subaspek";s:18:"Kepemilikan Gedung";s:5:"jenis";s:7:"pilihan";}', 'a:1:{i:0;s:14:"conaskjasdbask";}', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:03:37 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:06:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\aspekdetail.php on line 73.
+ 1 APPPATH\Views\admin\aspekdetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\aspekdetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekdetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekdetail', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(118): view('admin/aspekdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:06:34 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:08:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\aspekdetail.php on line 53.
+ 1 APPPATH\Views\admin\aspekdetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\aspekdetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekdetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekdetail', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(118): view('admin/aspekdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:08:01 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:08:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\aspekdetail.php on line 73.
+ 1 APPPATH\Views\admin\aspekdetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\aspekdetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekdetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekdetail', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(118): view('admin/aspekdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:08:42 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 03:11:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\aspekdetail.php on line 73.
+ 1 APPPATH\Views\admin\aspekdetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\aspekdetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\aspekdetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/aspekdetail', [], true)
+ 5 APPPATH\Controllers\Admin_aspek.php(118): view('admin/aspekdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 03:11:14 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:40:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\landing.php on line 6.
+ 1 APPPATH\Views\operator\landing.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\landing.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/landing', [], true)
+ 5 APPPATH\Controllers\Operator_root.php(19): view('operator/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 05:40:32 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:31:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\korwilcam\part_header.php on line 3.
+ 1 APPPATH\Views\korwilcam\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\korwilcam\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/part_header', [], true)
+ 5 APPPATH\Views\operator\profil.php(10): view('korwilcam/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/profil', [], true)
+ 9 APPPATH\Controllers\Operator_root.php(27): view('operator/profil', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_root->tampilpengguna()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_root))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 06:31:38 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:33:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\korwilcam\part_header.php on line 3.
+ 1 APPPATH\Views\korwilcam\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\korwilcam\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/part_header', [], true)
+ 5 APPPATH\Views\korwilcam\profil.php(10): view('korwilcam/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/profil', [], true)
+ 9 APPPATH\Controllers\Korwilcam_root.php(27): view('korwilcam/profil', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->tampilpengguna()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 06:33:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:33:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\korwilcam\part_header.php on line 3.
+ 1 APPPATH\Views\korwilcam\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\korwilcam\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/part_header', [], true)
+ 5 APPPATH\Views\korwilcam\profil.php(10): view('korwilcam/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/profil', [], true)
+ 9 APPPATH\Controllers\Korwilcam_root.php(27): view('korwilcam/profil', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Korwilcam_root->tampilpengguna()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Korwilcam_root))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 06:33:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:33:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\korwilcam\part_header.php on line 3.
+ 1 APPPATH\Views\korwilcam\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\korwilcam\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\korwilcam\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('korwilcam/part_header', [], true)
+ 5 APPPATH\Views\operator\akses.php(10): view('korwilcam/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\akses.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/akses', [], true)
+ 9 APPPATH\Controllers\Operator_root.php(43): view('operator/akses')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_root->tampilakses()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_root))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 06:33:33 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:11:57 --> Undefined variable $aspek
+in APPPATH\Views\operator\rombel.php on line 108.
+ 1 APPPATH\Views\operator\rombel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aspek', 'APPPATH\\Views\\operator\\rombel.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\rombel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/rombel', [], true)
+ 5 APPPATH\Controllers\Operator_rombel.php(24): view('operator/rombel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_rombel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_rombel))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 07:11:57 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:20:23 --> Undefined array key "jenis"
+in APPPATH\Controllers\Admin_aspek.php on line 28.
+ 1 APPPATH\Controllers\Admin_aspek.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'APPPATH\\Controllers\\Admin_aspek.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_aspek->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_aspek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 07:20:23 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:20:48 --> Undefined array key "bulan"
+in APPPATH\Controllers\Operator_rombel.php on line 42.
+ 1 APPPATH\Controllers\Operator_rombel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'APPPATH\\Controllers\\Operator_rombel.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_rombel->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 07:20:48 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 08:03:35 --> Undefined array key "nama"
+in APPPATH\Views\operator\rombel.php on line 151.
+ 1 APPPATH\Views\operator\rombel.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\operator\\rombel.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\rombel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/rombel', [], true)
+ 5 APPPATH\Controllers\Operator_rombel.php(24): view('operator/rombel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_rombel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_rombel))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 08:03:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:29:40 --> Undefined array key "kodepengguna"
+in APPPATH\Views\operator\laporan.php on line 13.
+ 1 APPPATH\Views\operator\laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Views\\operator\\laporan.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(24): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:29:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:29:52 --> Undefined array key "kodepengguna"
+in APPPATH\Views\operator\laporan.php on line 13.
+ 1 APPPATH\Views\operator\laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Views\\operator\\laporan.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(24): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:29:52 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:30:26 --> Undefined array key "kodepengguna"
+in APPPATH\Views\operator\laporan.php on line 13.
+ 1 APPPATH\Views\operator\laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Views\\operator\\laporan.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(24): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:30:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:30:32 --> Array to string conversion
+in APPPATH\Views\operator\laporan.php on line 13.
+ 1 APPPATH\Views\operator\laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\operator\\laporan.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(24): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:30:32 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:44:02 --> Undefined variable $op
+in APPPATH\Views\operator\laporan.php on line 83.
+ 1 APPPATH\Views\operator\laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'APPPATH\\Views\\operator\\laporan.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:44:02 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:47:46 --> Undefined variable $op
+in APPPATH\Views\operator\laporan.php on line 83.
+ 1 APPPATH\Views\operator\laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'APPPATH\\Views\\operator\\laporan.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:47:46 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:47:49 --> Undefined variable $op
+in APPPATH\Views\operator\laporan.php on line 83.
+ 1 APPPATH\Views\operator\laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'APPPATH\\Views\\operator\\laporan.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:47:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:49:46 --> Undefined variable $op
+in APPPATH\Views\operator\laporan.php on line 84.
+ 1 APPPATH\Views\operator\laporan.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'APPPATH\\Views\\operator\\laporan.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:49:46 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:53:17 --> Undefined array key "bulan"
+in APPPATH\Controllers\Operator_laporan.php on line 33.
+ 1 APPPATH\Controllers\Operator_laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'APPPATH\\Controllers\\Operator_laporan.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:53:17 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:53:18 --> Undefined array key "bulan"
+in APPPATH\Controllers\Operator_laporan.php on line 33.
+ 1 APPPATH\Controllers\Operator_laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'APPPATH\\Controllers\\Operator_laporan.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:53:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:53:19 --> Undefined array key "bulan"
+in APPPATH\Controllers\Operator_laporan.php on line 33.
+ 1 APPPATH\Controllers\Operator_laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'APPPATH\\Controllers\\Operator_laporan.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:53:19 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 19:53:23 --> Undefined array key "bulan"
+in APPPATH\Controllers\Operator_laporan.php on line 33.
+ 1 APPPATH\Controllers\Operator_laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'APPPATH\\Controllers\\Operator_laporan.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 19:53:23 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:03:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\laporan.php on line 110.
+ 1 APPPATH\Views\operator\laporan.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\laporan.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:03:06 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:03:35 --> Unclosed '{' on line 108
+in APPPATH\Views\operator\laporan.php on line 256.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 3 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:03:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:03:39 --> Unclosed '{' on line 108
+in APPPATH\Views\operator\laporan.php on line 256.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 3 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:03:39 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:03 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:17 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:17 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:26 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:44 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:44 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:53 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:54 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:54 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:12:54 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:12:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:13:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\laporan.php on line 119.
+ 1 APPPATH\Views\operator\laporan.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\laporan.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:13:06 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:13:16 --> Undefined variable $rt
+in APPPATH\Views\operator\laporan.php on line 17.
+ 1 APPPATH\Views\operator\laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rt', 'APPPATH\\Views\\operator\\laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:13:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 20:47:11 --> Undefined constant "Ecek"
+in APPPATH\Views\operator\laporan.php on line 294.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 4 APPPATH\Controllers\Operator_laporan.php(39): view('operator/laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->tampil()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 20:47:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 22:30:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\kepsek\laporan.php on line 122.
+ 1 APPPATH\Views\kepsek\laporan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kepsek\\laporan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(23): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 22:30:52 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 22:31:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\kepsek\laporan.php on line 116.
+ 1 APPPATH\Views\kepsek\laporan.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kepsek\\laporan.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(23): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 22:31:09 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 22:32:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\kepsek\laporan.php on line 122.
+ 1 APPPATH\Views\kepsek\laporan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kepsek\\laporan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(23): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 22:32:04 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 22:32:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\kepsek\laporan.php on line 116.
+ 1 APPPATH\Views\kepsek\laporan.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kepsek\\laporan.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/laporan', [], true)
+ 5 APPPATH\Controllers\Kepsek_laporan.php(23): view('kepsek/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 22:32:33 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 22:35:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\laporan.php on line 125.
+ 1 APPPATH\Views\operator\laporan.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\laporan.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/laporan', [], true)
+ 5 APPPATH\Controllers\Operator_laporan.php(25): view('operator/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 22:35:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:29:53 --> Array to string conversion
+in APPPATH\Controllers\Admin_sekolah.php on line 90.
+ 1 APPPATH\Controllers\Admin_sekolah.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin_sekolah.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_sekolah->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:29:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:30:43 --> Array to string conversion
+in APPPATH\Controllers\Admin_sekolah.php on line 90.
+ 1 APPPATH\Controllers\Admin_sekolah.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin_sekolah.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_sekolah->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:30:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:30:56 --> Array to string conversion
+in APPPATH\Controllers\Admin_sekolah.php on line 90.
+ 1 APPPATH\Controllers\Admin_sekolah.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin_sekolah.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_sekolah->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:30:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:31:14 --> Array to string conversion
+in APPPATH\Controllers\Admin_sekolah.php on line 90.
+ 1 APPPATH\Controllers\Admin_sekolah.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin_sekolah.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_sekolah->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:31:14 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:47:16 --> Undefined variable $bulan
+in APPPATH\Views\kepsek\operator.php on line 11.
+ 1 APPPATH\Views\kepsek\operator.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\kepsek\\operator.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 5 APPPATH\Controllers\Kepsek_operator.php(19): view('kepsek/operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:47:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:51:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\part_header.php on line 3.
+ 1 APPPATH\Views\operator\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/part_header', [], true)
+ 5 APPPATH\Views\kepsek\operator.php(6): view('operator/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 9 APPPATH\Controllers\Kepsek_operator.php(19): view('kepsek/operator', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:51:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:51:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\operator\part_header.php on line 3.
+ 1 APPPATH\Views\operator\part_header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\operator\\part_header.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\part_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/part_header', [], true)
+ 5 APPPATH\Views\kepsek\operator.php(6): view('operator/part_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 9 APPPATH\Controllers\Kepsek_operator.php(19): view('kepsek/operator', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:51:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:59:13 --> Undefined variable $s
+in APPPATH\Views\kepsek\operator.php on line 57.
+ 1 APPPATH\Views\kepsek\operator.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'APPPATH\\Views\\kepsek\\operator.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 5 APPPATH\Controllers\Kepsek_operator.php(21): view('kepsek/operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:59:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:59:28 --> Undefined variable $s
+in APPPATH\Views\kepsek\operator.php on line 57.
+ 1 APPPATH\Views\kepsek\operator.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'APPPATH\\Views\\kepsek\\operator.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 5 APPPATH\Controllers\Kepsek_operator.php(21): view('kepsek/operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:59:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 23:59:47 --> Undefined variable $ceks
+in APPPATH\Views\kepsek\operator.php on line 65.
+ 1 APPPATH\Views\kepsek\operator.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ceks', 'APPPATH\\Views\\kepsek\\operator.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kepsek\\operator.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kepsek/operator', [], true)
+ 5 APPPATH\Controllers\Kepsek_operator.php(21): view('kepsek/operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kepsek_operator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kepsek_operator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-15 23:59:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\paudnipkl\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\paudnipkl\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\paudnipkl\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
